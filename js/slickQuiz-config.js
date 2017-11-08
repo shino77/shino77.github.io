@@ -4,7 +4,7 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Quiz!! How well do we know the Montreal!?",
+        "name":    "Quiz!! How well do you know what's going on in your own backyard!?",
         "main":    "<p>Think you're smart enough? Find out with this Quiz!</p>",
         "results": "<h5>Learn More</h5><p>Check our [website]</p>",
         "level1":  "Jeopardy Ready",
@@ -34,7 +34,7 @@ var quizJSON = {
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>O Wow</span> Someone's Intuitive!!</p>",
+            "correct": "<p><span>O Wow</span> Someone is intuitive...</p>",
             "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options. Correct answer: Bicycles</p>" // no comma here
         },
         
