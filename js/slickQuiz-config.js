@@ -34,13 +34,11 @@ var quizJSON = {
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
             "select_any": true,
-<<<<<<< HEAD
+
             "correct": "<p><span>O Wow!!</span> Someone's Intuitive!!</p>",
             "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options. The correct answer: Bicycles</p>" // no comma here
-=======
-            "correct": "<p><span>O Wow</span> Someone's Intuitive!!</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
->>>>>>> 6b0526a1db97a6016254bb8f0028820282a36475
+
+
         },
         
         
@@ -52,11 +50,10 @@ var quizJSON = {
                 {"option": "The Moon",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-<<<<<<< HEAD
+
             "incorrect": "<p><span>WELLLL!</span> We still don't know! He's still totally on the loose! <br/> Thanks for playing, We will post a new Quiz very soon!</p>" // no comma here
-=======
-            "incorrect": "<p><span>WELLLL!</span> He's still totally on the loose! <br/> Thanks for playing, We will post a new Quiz very soon!</p>" // no comma here
->>>>>>> 6b0526a1db97a6016254bb8f0028820282a36475
+
+            
         } // no comma here
     ]
 };
