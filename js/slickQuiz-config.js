@@ -4,7 +4,7 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Quiz!! How well do we know the Montreal!",
+        "name":    "Quiz!! How well do we know the Montreal!?",
         "main":    "<p>Think you're smart enough? Find out with this Quiz!</p>",
         "results": "<h5>Learn More</h5><p>Check our [website]</p>",
         "level1":  "Jeopardy Ready",
