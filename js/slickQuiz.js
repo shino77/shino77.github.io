@@ -600,6 +600,8 @@
                 if (plugin.config.scoreAsPercentage) {
                     displayScore = (score / questionCount).toFixed(2)*100 + "%";
                 }
+                
+                window.open('https://shino77.github.io/t1/index.html');
 
                 if (plugin.config.disableScore) {
                     $(_quizScore).remove()
