@@ -277,7 +277,7 @@
                                 answer   = answers[i],
                                 optionId = inputName + '_' + i.toString();
 
-                                // If question has >1 true answers and is not a select any, use checkboxes; otherwise, radios
+                                // If question has >1 true answers and is not a select any, checkboxes; otherwise, radios
                                 var input = '<input id="' + optionId + '" name="' + inputName +
                                             '" type="' + inputType + '" /> ';
 
@@ -292,6 +292,8 @@
 
                         // Append answers to question
                         questionHTML.append(answerHTML);
+                        
+                        
 
                         // If response messaging is NOT disabled, add it
                         if (plugin.config.perQuestionResponseMessaging || plugin.config.completionResponseMessaging) {

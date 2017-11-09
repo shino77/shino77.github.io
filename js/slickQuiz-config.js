@@ -15,7 +15,8 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "<img src='images/Proto01_01d.gif'></br/>-Two criminals in Montreal get a call from their boss Eric and go to a Hospital where a worker is moving a cart with 15000$ in it, Do they?",
+            "q": "<div id='innerpic'><img src='images/Proto01_01d.gif'></div></br/>-Two criminals in Montreal get a call from their boss Eric and go to a Hospital where a worker is moving a cart with 15000$ in it, Do they?",
+            "q1": "<div id='innerpic'><img src='images/Proto01_01c.gif'></div></br/>-Two criminals in Montreal get a call from their boss Eric and go to a Hospital where a worker is moving a cart with 15000$ in it, Do they?",
             "a": [
                 {"option": "Kill him & Rob him",      "correct": false},
                 {"option": "Rob him at gun point",     "correct": true},
@@ -24,9 +25,10 @@ var quizJSON = {
             ],
             "correct": "<p><span>That's right!</span> You smartie!</p>",
             "incorrect": "<p><span>Uhh no.</span> Not even close xD, Correct answer: Rob him at gun point</p>" // no comma here
+            
         },
-        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "<img src='images/Proto01_01c.gif'></br/>How do you think the criminals escaped?",
+        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any  
+            "q": "</br/>How do you think the criminals escaped?",
             "a": [
                 {"option": "Car",               "correct": false},
                 {"option": "Bicycles",   "correct": true},
