@@ -4,7 +4,7 @@
 
 var quizJSON = {
     "info": {
-        "name":    "How well do you know what’s going on in your city?",
+        "name":    "How well do you know what's going on in your city?",
         "main":    "<p>Find out in this quiz!</p>",
         "results": "<h5>Learn More</h5><p>Check our [website]</p>",
         "level1":  "Jeopardy Ready",
@@ -15,7 +15,7 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "<div id='mainpic' ><img src='images/Proto01_01d.gif' ></div><div id='innerpic' style='display:none;'><img src='images/Proto01_01c.gif' ></div></br/>Two criminals in Montreal get a call from their boss &Eacute;ric with a job. They are to go to a hospital. There they find a worker pushing a cart with the hospital’s daily cash receipts on it, about $15,000. Do they?",
+            "q": "<div id='mainpic' ><img src='images/Proto01_01d.gif' ></div><div id='innerpic' style='display:none;'><img src='images/Proto01_01c.gif' ></div></br/>Two criminals in Montreal get a call from their boss &Eacute;ric with a job. They are to go to a hospital. There they find a worker pushing a cart with the hospital's daily cash receipts on it, about $15,000. Do they?",
             
             "a": [
                 {"option": "Kill the worker and rob him",      "correct": false},
@@ -54,7 +54,7 @@ var quizJSON = {
                 {"option": "The Moon!",     "correct": false},
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span><img src='Proto01_01a.gif'>WELLLL!</span> He's still on the loose! <br/> Thanks for playing. We’ll post a new quiz very soon!</p>" // no comma here
+            "incorrect": "<p><span><img src='Proto01_01a.gif'>WELLLL!</span> He's still on the loose! <br/> Thanks for playing. We'll post a new quiz very soon!</p>" // no comma here
         } // no comma here
     ]
 };
