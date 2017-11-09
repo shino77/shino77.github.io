@@ -429,6 +429,24 @@
                     selectAny     = questions[questionIndex].select_any ? questions[questionIndex].select_any : false;
 
                 answerLIs.addClass(incorrectResponseClass);
+                
+                
+                
+                if(questionIndex==0)
+                {
+                    document.getElementById('mainpic').style.display = 'none';
+                    document.getElementById('innerpic').style.display = 'inline';
+                }
+                if(questionIndex==1)
+                {
+                    document.getElementById('mainpic1').style.display = 'none';
+                    document.getElementById('innerpic1').style.display = 'inline';
+                }
+                if(questionIndex==2)
+                {
+                    document.getElementById('mainpic2').style.display = 'none';
+                    document.getElementById('innerpic2').style.display = 'inline';
+                }
 
                 // Collect the true answers needed for a correct response
                 var trueAnswers = [];
@@ -601,7 +619,7 @@
                     displayScore = (score / questionCount).toFixed(2)*100 + "%";
                 }
                 
-                window.open('https://shino77.github.io/t1/index.html?score='+displayScore);
+                window.open('https://shino77.github.io/index.html?score='+displayScore);
 
                 if (plugin.config.disableScore) {
                     $(_quizScore).remove()

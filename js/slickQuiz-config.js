@@ -15,7 +15,7 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "<div id='innerpic'><img src='images/Proto01_01d.gif'></div></br/>-Two criminals in Montreal get a call from their boss Eric and go to a Hospital where a worker is moving a cart with 15000$ in it, Do they?",
+            "q": "<div id='mainpic' ><img src='images/Proto01_01d.gif' ></div><div id='innerpic' style='display:none;'><img src='images/Proto01_01c.gif' ></div></br/>-Two criminals in Montreal get a call from their boss Eric and go to a Hospital where a worker is moving a cart with 15000$ in it, Do they?",
             
             "a": [
                 {"option": "Kill him & Rob him",      "correct": false},
@@ -28,7 +28,7 @@ var quizJSON = {
             
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any  
-            "q": "<div id='innerpic'><img src='images/Proto01_01c.gif'></div></br/>How do you think the criminals escaped?",
+            "q": "<div id='mainpic1' ><img src='images/Proto01_01c.gif' ></div><div id='innerpic1' style='display:none;'><img src='images/Proto01_01b.gif' ></div></br/>How do you think the criminals escaped?",
             "a": [
                 {"option": "Car",               "correct": false},
                 {"option": "Bicycles",   "correct": true},
@@ -42,7 +42,7 @@ var quizJSON = {
         
         
         { // Question 5
-            "q": "<img src='images/Proto01_01b.gif'></br/>Where do you think Eric is hiding?",
+            "q": "<div id='mainpic2' ><img src='images/Proto01_01b.gif' ></div><div id='innerpic2' style='display:none;'><img src='images/Proto01_01a.gif' ></div></br/>Where do you think Eric is hiding?",
             "a": [
                 {"option": "Ontario",    "correct": false},
                 {"option": "Quebec",     "correct": false},
