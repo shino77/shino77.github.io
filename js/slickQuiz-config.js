@@ -15,7 +15,7 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "<img src='images/test.png'></br/>-Two criminals in Montreal get a call from their boss Eric and go to a Hospital where a worker is moving a cart with 15000$ in it, Do they?",
+            "q": "<img src='images/Proto01_01d.gif'></br/>-Two criminals in Montreal get a call from their boss Eric and go to a Hospital where a worker is moving a cart with 15000$ in it, Do they?",
             "a": [
                 {"option": "Kill him & Rob him",      "correct": false},
                 {"option": "Rob him at gun point",     "correct": true},
@@ -26,7 +26,7 @@ var quizJSON = {
             "incorrect": "<p><span>Uhh no.</span> Not even close xD, Correct answer: Rob him at gun point</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "How do you think the criminals escaped?",
+            "q": "<img src='images/Proto01_01c.gif'></br/>How do you think the criminals escaped?",
             "a": [
                 {"option": "Car",               "correct": false},
                 {"option": "Bicycles",   "correct": true},
@@ -34,20 +34,20 @@ var quizJSON = {
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>O Wow</span> Someone is intuitive...</p>",
+            "correct": "<p><span>O Wow!</span> Someone is intuitive...</p>",
             "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options. Correct answer: Bicycles</p>" // no comma here
         },
         
         
         { // Question 5
-            "q": "Where do you think Eric is hiding?",
+            "q": "<img src='images/Proto01_01b.gif'></br/>Where do you think Eric is hiding?",
             "a": [
                 {"option": "Ontario",    "correct": false},
                 {"option": "Quebec",     "correct": false},
                 {"option": "The Moon!",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>WELLLL!</span> He's still totally on the loose! <br/> Thanks for playing, We will post a new Quiz very soon!</p>" // no comma here
+            "incorrect": "<p><span><img src='Proto01_01a.gif'>WELLLL!</span> He's still totally on the loose! <br/> Thanks for playing, We will post a new Quiz very soon!</p>" // no comma here
         } // no comma here
     ]
 };
