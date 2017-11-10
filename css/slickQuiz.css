@@ -29,12 +29,17 @@ ul.responses li {
 }
 
 ul.answers li{
- background-image :    -moz-linear-gradient(rgb(224,224,224),rgb(240,240,240));
-  background-image :     -ms-linear-gradient(rgb(224,224,224),rgb(240,240,240));
-  background-image :      -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
-  background-image : -webkit-linear-gradient(rgb(224,224,224),rgb(240,240,240));
-  background-image :         linear-gradient(rgb(224,224,224),rgb(240,240,240));
+ display      : inline-block;
+  margin-left  : -2em;
+  
   text-align:left;
+  background-image :    -moz-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image :     -ms-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image :      -o-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image : -webkit-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image :         linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  width:300px;
+  height:25px;
    
 }
 

@@ -43,7 +43,7 @@ var quizJSON = {
         
         
         { // Question 5
-            "q": "<div id='mainpic2' style='margin-top:-20px;'><img src='images/Proto01_01b.png' ></div><div id='innerpic2' style='display:none;'><img src='images/Proto01_01a02.png' ></div><br/><br/><div style='text-align:justify;'>Where do you think &Eacute;ric is hiding?</div>",
+            "q": "<div id='mainpic2' style='margin-top:-20px;'><img src='images/Proto01_01b.png' ></div><div id='innerpic2' style='display:none;'><img src='images/Proto01_01a02.png' ></div><div style='text-align:justify;'>Where do you think &Eacute;ric is hiding?</div>",
             "a": [
                 {"option": "Rural Ontario",    "correct": false},
                 {"option": "Vancouver",     "correct": false},
