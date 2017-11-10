@@ -51,7 +51,6 @@ var quizJSON = {
                 {"option": "Rural Quebec",     "correct": false},
                 {"option": "Toronto",     "correct": false},
                 {"option": "Montreal",     "correct": false},
-                {"option": "The Moon!",     "correct": false},
             ],
             "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
             "incorrect": "<p><span><img src='Proto01_01a.gif'>WELLLL!</span> He's still on the loose! <br/> Thanks for playing. We'll post a new quiz very soon!</p>" // no comma here
