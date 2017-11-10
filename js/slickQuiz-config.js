@@ -15,7 +15,7 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "<div id='mainpic' ><img src='images/Proto01_01d.gif' ></div><div id='innerpic' style='display:none;'><img src='images/Proto01_01c.gif' ></div></br/>Two criminals in Montreal get a call from their boss &Eacute;ric with a job. They are to go to a hospital. There they find a worker pushing a cart with the hospital's daily cash receipts on it, about $15,000. Do they?",
+            "q": "<div id='mainpic' style='margin-top:-50px;'><img src='images/Proto01_01d.png' ></div><div id='innerpic' style='display:none;'><img src='images/Proto01_01c.png' ></div><div style='text-align:justify;'>Two criminals in Montreal get a call from their boss &Eacute;ric with a job. They are to go to a hospital. There they find a worker pushing a cart with the hospital's daily cash receipts on it, about $15,000. Do they?</div>",
             
             "a": [
                 {"option": "Kill the worker and rob him",      "correct": false},
@@ -29,7 +29,7 @@ var quizJSON = {
             
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any  
-            "q": "<div id='mainpic1' ><img src='images/Proto01_01c.gif' ></div><div id='innerpic1' style='display:none;'><img src='images/Proto01_01b.gif' ></div></br/>How do you think the criminals escaped?",
+            "q": "<div id='mainpic1' style='margin-top:-30px;'><img src='images/Proto01_01c.png' ></div><div id='innerpic1' style='display:none;'><img src='images/Proto01_01b.png' ></div><div style='text-align:justify;'>How do you think the criminals escaped?</div>",
             "a": [
                 {"option": "In a car",               "correct": false},
                 {"option": "By bicycle",   "correct": true},
@@ -43,7 +43,7 @@ var quizJSON = {
         
         
         { // Question 5
-            "q": "<div id='mainpic2' ><img src='images/Proto01_01b.gif' ></div><div id='innerpic2' style='display:none;'><img src='images/Proto01_01a.gif' ></div></br/>Where do you think &Eacute;ric is hiding?",
+            "q": "<div id='mainpic2' style='margin-top:-20px;'><img src='images/Proto01_01b.png' ></div><div id='innerpic2' style='display:none;'><img src='images/Proto01_01a02.png' ></div><br/><br/><div style='text-align:justify;'>Where do you think &Eacute;ric is hiding?</div>",
             "a": [
                 {"option": "Rural Ontario",    "correct": false},
                 {"option": "Vancouver",     "correct": false},

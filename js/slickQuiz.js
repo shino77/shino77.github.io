@@ -348,6 +348,10 @@
 
             // Starts the quiz (hides start button and displays first question)
             startQuiz: function(options) {
+                document.getElementById('slickQuiz-name').style.display = 'none';
+                document.getElementById('gametitle').style.display = 'none';
+                document.getElementById('quizHeader').style.display = 'none';
+                
                 var key, keyNotch, kN;
                 key = internal.method.getKey (1); // how many notches == how many jQ animations you will run
                 keyNotch = internal.method.getKeyNotch; // a function that returns a jQ animation callback function
@@ -436,6 +440,8 @@
                 {
                     document.getElementById('mainpic').style.display = 'none';
                     document.getElementById('innerpic').style.display = 'inline';
+                    
+                    
                 }
                 if(questionIndex==1)
                 {
