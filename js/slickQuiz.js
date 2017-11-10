@@ -625,7 +625,7 @@
                     displayScore = (score / questionCount).toFixed(2)*100 + "%";
                 }
                 
-                window.open('https://shino77.github.io/index.html?score='+displayScore);
+                //window.open('https://shino77.github.io/index.html?score='+displayScore);
                 //https://goo.gl/51H64k
                  window.open('https://goo.gl/51H64k');
 
