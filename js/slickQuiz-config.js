@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "How well do you know what's going on in your city?",
         "main":    "<p>Find out in this quiz!</p>",
-        "results": "<h5>Learn More</h5><p>Check our [website]</p>",
+        "results": "<h5>Learn More</h5><p><a href='https://goo.gl/51H64k'>Please participate in our short survey</a></p>",
         "level1":  "Jeopardy Ready",
         "level2":  "Jeopardy Contender",
         "level3":  "Jeopardy Amateur",
