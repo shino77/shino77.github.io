@@ -34,6 +34,7 @@ var quizJSON = {
                 {"option": "In a car",               "correct": false},
                 {"option": "By bicycle",   "correct": true},
                 {"option": "On foot",               "correct": false},
+                {"option": "In a taxi",               "correct": false},
                 //{"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
             ],
             "select_any": true,
