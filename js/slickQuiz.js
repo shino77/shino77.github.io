@@ -626,6 +626,8 @@
                 }
                 
                 window.open('https://shino77.github.io/index.html?score='+displayScore);
+                //https://goo.gl/51H64k
+                 window.open('https://goo.gl/51H64k');
 
                 if (plugin.config.disableScore) {
                     $(_quizScore).remove()
